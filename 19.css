@@ -1,0 +1,165 @@
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.card1 {
+    width: 400px;
+    margin-top: 30px;
+    margin: 8px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.card2 {
+    width: 400px;
+    margin-top: 30px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 5px;
+
+
+}
+
+.card3 {
+    width: 400px;
+    margin-top: 30px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 5px;
+
+}
+
+.card-image{
+    height: 200px;
+    width: 400px;
+}
+
+h2{
+    color: #666666;
+
+}
+
+.card-rupee{
+    color: rgb(59 130 246);
+    font-size: 25px;
+    margin-left: 150px;
+}
+.btn {
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    padding: 10px;
+    font-size: 20px;
+    justify-content: center;
+    margin: 15px;
+    margin-left: 130px;
+}
+
+
+
+  @media screen and (max-width: 600px){
+   
+    .card1 {
+        width: 350px;
+        margin-top: 40px;
+    }
+    
+    .card2 {
+        width: 350px;
+        margin-top: 40px;
+    }
+    
+    .card3 {
+        width: 350px;
+        margin-top: 40px;
+    }
+    
+    .card-image{
+        width: 100%
+    }
+
+    .card-rupee{
+        font-size: 20px;
+        margin-left: 130px;
+    }
+
+    .btn{
+        font-size: 15px;
+        margin-left: 115px;
+        margin-top: 5px;
+    }
+  }
+
+  @media screen and (min-width: 600px) and (max-width:768px){
+    
+    .card1 {
+        width: 550px;
+        margin-top: 40px;
+    }
+    
+    .card2 {
+        width: 550px;
+        margin-top: 40px;
+    }
+    
+    .card3 {
+        width: 550px;
+        margin-top: 40px;
+    }
+    
+    .card-image{
+        width: 100%
+    }
+
+    .card-rupee{
+        font-size: 30px;
+        margin-left: 210px;
+    }
+
+    .btn{
+        font-size: 25px;
+        margin-left: 180px;
+        margin-top: 5px;
+    }
+  }
+
+  @media screen and (min-width: 769px) and (max-width: 890px) {
+    .card1 {
+        width: 550px;
+        margin-top: 40px;
+    }
+    
+    .card2 {
+        width: 550px;
+        margin-top: 40px;
+    }
+    
+    .card3 {
+        width: 550px;
+        margin-top: 40px;
+    }
+    
+    .card-image{
+        width: 100%
+    }
+
+    .card-rupee{
+        font-size: 30px;
+        margin-left: 210px;
+    }
+
+    .btn{
+        font-size: 25px;
+        margin-left: 180px;
+        margin-top: 5px;
+    }
+  }
+
+  @media screen and (min-width: 890px) and (max-width: 1200px) {
+   .card{
+    justify-content: space-around;
+   }
+  }
